@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | NumbClothes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icon-numb.ico">
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="container-fluid text-center bg-dark text-white p-1">
+        <a href="#" class="title">
+            <h1 class="titleAnimado">NumbClothes</h1>
+        </a>
+    </div>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-cloud-lightning-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M7.053 11.276A.5.5 0 0 1 7.5 11h1a.5.5 0 0 1 .474.658l-.28.842H9.5a.5.5 0 0 1 .39.812l-2 2.5a.5.5 0 0 1-.875-.433L7.36 14H6.5a.5.5 0 0 1-.447-.724l1-2zm6.352-7.249a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973z" />
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active menuItems" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sale.html">Sale T-shirts</a></li>
+                            <li><a class="dropdown-item" href="new.html">New Collection</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="personalize.html">Personalize your NumbT-shirt</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Carrusel -->
+    <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/numb-banner.jpg" class="d-block w-100" alt="banner de Numb">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/numb-bannertres.jpg" class="d-block w-100" alt="banner de Numb">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/numb-bannerdos.jpg" class="d-block w-100" alt="banner de Numb">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Imagenes -->
+    <div class="container-xxl">
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="assets/numb-card.jpg" class="borderImg mt-2 img-fluid" alt="imagen de Numb">
+            </div>
+            <div class="col">
+                <img src="assets/numb-cdos.jpg" class="borderImg mt-2 img-fluid" alt="imagen de Numb">
+            </div>
+            <div class="col">
+                <img src="assets/numb-ctres.jpg" class="borderImg mt-2 img-fluid" alt="imagen de Numb">
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid mt-3 footerAnimado">
+        <h3 class="text-center m-0 text-black">NumbClothes©</h3>
+        <h4 class="text-center m-0 text-black">Copyright 2022</h4>
+        <a href="contact.html" class="text-decoration-none text-black">
+            <h4 class="text-center m-0">Contact Us</h4>
+        </a>
+    </footer>
+    <!-- linkeo al JS -->
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
